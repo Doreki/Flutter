@@ -25,5 +25,5 @@ abstract class ProductRepository implements IBasePaginationRepository<ProductMod
   @Headers({'accessToken': 'true'})
   Future<CursorPagination<ProductModel>> paginate({
     @Queries() PaginationParams? paginationParams = const PaginationParams(),
-  });
+  })
 }

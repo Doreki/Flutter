@@ -8,6 +8,8 @@ import 'package:flutter/material.dart';
 import '../const/colors.dart';
 
 class SplashScreen extends StatefulWidget {
+  static String get routeName => 'splash';
+
   const SplashScreen({Key? key}) : super(key: key);
 
   @override
